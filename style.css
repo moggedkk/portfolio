@@ -1,0 +1,34 @@
+body {
+  background-image: url('img/background/background_4.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#contact_field{
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(15, 127, 255);
+    color: white;
+    padding: 1%;
+    margin: 1%;
+}
+
+.pixel-title {
+    font-family: 'Public Pixel', monospace;
+}
+
+#name_field{
+    color: rgb(15, 127, 255);
+}
+
+@font-face {
+  font-family: 'Public Pixel';
+  src: url('fonts/PublicPixel-eZPz6.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.cont_space{
+    margin-top: 10px;
+}
