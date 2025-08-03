@@ -1,9 +1,3 @@
-body {
-  background-image: url('img/background/background_4.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
 
 #contact_field{
     border-style: none;
@@ -14,6 +8,10 @@ body {
     margin: 1%;
 }
 
+.img{
+  max-width: 100%; 
+  height: auto;
+}
 .pixel-title {
     font-family: 'Public Pixel', monospace;
 }
@@ -27,8 +25,4 @@ body {
   src: url('fonts/PublicPixel-eZPz6.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-}
-
-.cont_space{
-    margin-top: 10px;
 }
