@@ -20,6 +20,11 @@
     color: rgb(15, 127, 255);
 }
 
+.icon{
+  max-height: 60px;
+  max-width: 60px;
+}
+
 @font-face {
   font-family: 'Public Pixel';
   src: url('fonts/PublicPixel-eZPz6.ttf') format('truetype');
