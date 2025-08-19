@@ -8,10 +8,6 @@
     margin: 1%;
 }
 
-.img{
-  max-width: 100%; 
-  height: auto;
-}
 .pixel-title {
     font-family: 'Public Pixel', monospace;
 }
@@ -21,10 +17,28 @@
 }
 
 .icon{
- width: 65px;
+  width: 65px;
   height: 45px;
 }
+#row_container_interests{
+  margin-bottom: 10%;
+}
 
+#row_container{
+  border-bottom: 1px solid rgb(15, 127, 255);
+  margin-bottom: 10px;
+}
+
+#outer_container{
+  margin-bottom: 10px;
+}
+
+.images{
+  max-height: 300px;
+}
+#headline_concepts{
+  margin: 2%;
+}
 
 @font-face {
   font-family: 'Public Pixel';
