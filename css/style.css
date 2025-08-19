@@ -1,13 +1,3 @@
-
-#contact_field{
-    border-style: none;
-    border-radius: 10px;
-    background-color: rgb(15, 127, 255);
-    color: white;
-    padding: 1%;
-    margin: 1%;
-}
-
 .pixel-title {
     font-family: 'Public Pixel', monospace;
 }
@@ -20,6 +10,11 @@
   width: 65px;
   height: 45px;
 }
+
+.images{
+  max-height: 300px;
+}
+
 #row_container_interests{
   margin-bottom: 10%;
 }
@@ -31,10 +26,6 @@
 
 #outer_container{
   margin-bottom: 10px;
-}
-
-.images{
-  max-height: 300px;
 }
 #headline_concepts{
   margin: 2%;
